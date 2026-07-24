@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>WhatsApp Automation</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<div class="boot-screen" id="bootScreen">
+  <div class="boot-card">
+    <div class="spinner"></div>
+    <p class="boot-text">Starting control panel</p>
+  </div>
+</div>
+
+<div class="login-screen" id="loginScreen" hidden>
+  <form class="login-card" id="loginForm">
+    <h1 class="login-title">WhatsApp Automation</h1>
+    <p class="login-subtitle">This control panel is protected. Enter your access token to continue.</p>
+    <label class="field">
+      <span class="field-label">Access token</span>
+      <input class="input" id="loginToken" type="password" name="password" autocomplete="current-password" placeholder="Access token" spellcheck="false">
+    </label>
+    <p class="login-error" id="loginError" hidden></p>
+    <button class="btn btn-primary btn-block" id="loginSubmit" type="submit">Sign in</button>
+  </form>
+</div>
+
+<div class="app-shell" id="appShell" hidden>
+  <header class="topbar">
+    <div class="topbar-brand">
+      <span class="conn-dot" id="connDot"></span>
+      <span class="brand-name">WhatsApp Automation</span>
+      <span class="brand-version" id="appVersion"></span>
+    </div>
+    <nav class="tabs" id="tabs">
+      <button class="tab" type="button" data-view="dashboard">Dashboard</button>
+      <button class="tab" type="button" data-view="integrations">Integrations</button>
+      <button class="tab" type="button" data-view="contacts">Contacts</button>
+      <button class="tab" type="button" data-view="workflows">Workflows</button>
+      <button class="tab" type="button" data-view="runs">Runs</button>
+      <button class="tab" type="button" data-view="keys">API Keys</button>
+    </nav>
+    <div class="topbar-actions">
+      <button class="btn btn-ghost" id="signOutButton" type="button">Sign out</button>
+    </div>
+  </header>
+  <main class="view-root" id="viewRoot"></main>
+</div>
+
+<div class="toast-stack" id="toastStack" aria-live="polite"></div>
+<div class="modal-root" id="modalRoot" hidden></div>
+
+<script type="module" src="/app.js"></script>
+</body>
+</html>
