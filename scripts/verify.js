@@ -2,11 +2,11 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import { Application } from '../src/Application.js';
-import { PhoneNumber } from '../src/core/PhoneNumber.js';
-import { MatchRule } from '../src/triggers/MatchRule.js';
-import { GraphRouter } from '../src/engine/GraphRouter.js';
-import { Template } from '../src/core/Template.js';
+import { Application } from '#app';
+import { PhoneNumber } from '#core/PhoneNumber.js';
+import { MatchRule } from '#triggers/MatchRule.js';
+import { GraphRouter } from '#engine/GraphRouter.js';
+import { Template } from '#core/Template.js';
 
 const workspace = fs.mkdtempSync(path.join(os.tmpdir(), 'wa-verify-'));
 const results = [];

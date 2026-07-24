@@ -1,5 +1,5 @@
-import { AppError, RateLimitError, UnauthorizedError, ForbiddenError } from '../core/AppError.js';
-import { SlidingWindowLimiter } from '../core/Support.js';
+import { AppError, RateLimitError, UnauthorizedError, ForbiddenError } from '#core/AppError.js';
+import { SlidingWindowLimiter } from '#core/Support.js';
 
 const CONTENT_SECURITY_POLICY = [
   "default-src 'self'",

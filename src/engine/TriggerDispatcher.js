@@ -1,8 +1,8 @@
 import { GraphRouter } from './GraphRouter.js';
-import { MatchRule } from '../triggers/MatchRule.js';
-import { PhoneNumber } from '../core/PhoneNumber.js';
-import { Template } from '../core/Template.js';
-import { clamp, toBoolean } from '../core/Support.js';
+import { MatchRule } from '#triggers/MatchRule.js';
+import { PhoneNumber } from '#core/PhoneNumber.js';
+import { Template } from '#core/Template.js';
+import { clamp, toBoolean } from '#core/Support.js';
 
 export class TriggerDispatcher {
   constructor({ repositories, nodeRegistry, triggerRegistry, logger, config }) {

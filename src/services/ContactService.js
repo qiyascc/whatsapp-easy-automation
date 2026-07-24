@@ -1,7 +1,7 @@
-import { PhoneNumber } from '../core/PhoneNumber.js';
-import { ContactRepository } from '../db/repositories/ContactRepository.js';
-import { NotFoundError, ValidationError } from '../core/AppError.js';
-import { clamp } from '../core/Support.js';
+import { PhoneNumber } from '#core/PhoneNumber.js';
+import { ContactRepository } from '#db/repositories/ContactRepository.js';
+import { NotFoundError, ValidationError } from '#core/AppError.js';
+import { clamp } from '#core/Support.js';
 
 const MAX_BULK_INPUT = 100000;
 

@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { asyncRoute } from '../middleware.js';
+import { asyncRoute } from '#server/middleware.js';
 
 export class SessionRoutes {
   constructor(container) {

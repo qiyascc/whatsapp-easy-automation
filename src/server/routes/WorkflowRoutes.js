@@ -1,7 +1,7 @@
 import { Router } from 'express';
-import { asyncRoute } from '../middleware.js';
-import { ValidationError } from '../../core/AppError.js';
-import { NodeRegistry } from '../../nodes/NodeRegistry.js';
+import { asyncRoute } from '#server/middleware.js';
+import { ValidationError } from '#core/AppError.js';
+import { NodeRegistry } from '#nodes/NodeRegistry.js';
 
 export class CatalogRoutes {
   constructor(container) {

@@ -1,4 +1,4 @@
-import { safeJsonParse } from '../core/Support.js';
+import { safeJsonParse } from '#core/Support.js';
 
 const LEGACY_STATUS_MAP = Object.freeze({
   pending: 'pending',

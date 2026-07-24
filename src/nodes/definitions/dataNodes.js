@@ -1,7 +1,7 @@
-import { WorkflowNode, NodeResult } from '../WorkflowNode.js';
-import { PhoneNumber } from '../../core/PhoneNumber.js';
-import { ContactRepository } from '../../db/repositories/ContactRepository.js';
-import { clamp } from '../../core/Support.js';
+import { WorkflowNode, NodeResult } from '#nodes/WorkflowNode.js';
+import { PhoneNumber } from '#core/PhoneNumber.js';
+import { ContactRepository } from '#db/repositories/ContactRepository.js';
+import { clamp } from '#core/Support.js';
 
 const DATA_COLOR = '#0ea5e9';
 const SCRAPE_COOLDOWN_MS = 300000;

@@ -1,4 +1,4 @@
-import { AppError, NotFoundError, ValidationError } from '../core/AppError.js';
+import { AppError, NotFoundError, ValidationError } from '#core/AppError.js';
 
 const EMPTY_GRAPH = { nodes: [], edges: [] };
 

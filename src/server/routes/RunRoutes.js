@@ -1,7 +1,7 @@
 import { Router } from 'express';
-import { asyncRoute } from '../middleware.js';
-import { NotFoundError, ValidationError } from '../../core/AppError.js';
-import { clamp } from '../../core/Support.js';
+import { asyncRoute } from '#server/middleware.js';
+import { NotFoundError, ValidationError } from '#core/AppError.js';
+import { clamp } from '#core/Support.js';
 
 export class RunRoutes {
   constructor(container) {

@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import { asyncRoute, rateLimit, extractToken } from '../middleware.js';
-import { UnauthorizedError } from '../../core/AppError.js';
+import { asyncRoute, rateLimit, extractToken } from '#server/middleware.js';
+import { UnauthorizedError } from '#core/AppError.js';
 
 export class AuthRoutes {
   constructor(container) {

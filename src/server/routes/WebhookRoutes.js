@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import crypto from 'node:crypto';
-import { asyncRoute, rateLimit, extractToken } from '../middleware.js';
-import { ForbiddenError, UnauthorizedError } from '../../core/AppError.js';
+import { asyncRoute, rateLimit, extractToken } from '#server/middleware.js';
+import { ForbiddenError, UnauthorizedError } from '#core/AppError.js';
 
 export class WebhookRoutes {
   constructor(container) {

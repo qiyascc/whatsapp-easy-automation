@@ -1,6 +1,6 @@
-import { WorkflowNode, NodeResult } from '../WorkflowNode.js';
-import { clamp, randomInt, safeJsonParse, truncate } from '../../core/Support.js';
-import { Template } from '../../core/Template.js';
+import { WorkflowNode, NodeResult } from '#nodes/WorkflowNode.js';
+import { clamp, randomInt, safeJsonParse, truncate } from '#core/Support.js';
+import { Template } from '#core/Template.js';
 
 const UNIT_MULTIPLIER = Object.freeze({ seconds: 1000, minutes: 60000, hours: 3600000, days: 86400000 });
 const HTTP_TIMEOUT_MS = 15000;

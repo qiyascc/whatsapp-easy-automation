@@ -1,6 +1,6 @@
-import { WorkflowNode, NodeResult } from '../WorkflowNode.js';
-import { MatchRule } from '../../triggers/MatchRule.js';
-import { ContactRepository } from '../../db/repositories/ContactRepository.js';
+import { WorkflowNode, NodeResult } from '#nodes/WorkflowNode.js';
+import { MatchRule } from '#triggers/MatchRule.js';
+import { ContactRepository } from '#db/repositories/ContactRepository.js';
 
 const MATCH_FIELDS = [
   {

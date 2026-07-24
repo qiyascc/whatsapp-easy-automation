@@ -1,5 +1,5 @@
-import { WorkflowNode, NodeResult } from '../WorkflowNode.js';
-import { WhatsAppGateway } from '../../whatsapp/WhatsAppGateway.js';
+import { WorkflowNode, NodeResult } from '#nodes/WorkflowNode.js';
+import { WhatsAppGateway } from '#whatsapp/WhatsAppGateway.js';
 
 const GROUP_COLOR = '#16a34a';
 const GROUP_FIELD = { key: 'group_jid', label: 'Group', type: 'group' };

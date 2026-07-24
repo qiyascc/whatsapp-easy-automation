@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import { asyncRoute } from '../middleware.js';
-import { ValidationError } from '../../core/AppError.js';
+import { asyncRoute } from '#server/middleware.js';
+import { ValidationError } from '#core/AppError.js';
 
 export class ContactRoutes {
   constructor(container) {

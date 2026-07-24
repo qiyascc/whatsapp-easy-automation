@@ -1,4 +1,4 @@
-import { toBoolean } from '../core/Support.js';
+import { toBoolean } from '#core/Support.js';
 
 const MATCH_MODES = Object.freeze(['any', 'contains', 'equals', 'starts_with', 'regex', 'command']);
 

@@ -1,7 +1,7 @@
 import { MailIngestor } from './MailIngestor.js';
 import { TelegramIngestor } from './TelegramIngestor.js';
 import { WhatsAppIngestor, WebhookIngestor } from './PushIngestors.js';
-import { clamp } from '../core/Support.js';
+import { clamp } from '#core/Support.js';
 
 const PRUNE_INTERVAL_MS = 3600000;
 

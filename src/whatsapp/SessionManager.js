@@ -1,8 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { WhatsAppSession } from './WhatsAppSession.js';
-import { sanitizeIdentifier } from '../core/Support.js';
-import { NotFoundError, ValidationError } from '../core/AppError.js';
+import { sanitizeIdentifier } from '#core/Support.js';
+import { NotFoundError, ValidationError } from '#core/AppError.js';
 
 export class SessionManager {
   #sessions = new Map();

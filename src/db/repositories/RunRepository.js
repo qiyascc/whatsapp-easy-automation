@@ -1,5 +1,5 @@
 import { BaseRepository } from './BaseRepository.js';
-import { safeJsonParse } from '../../core/Support.js';
+import { safeJsonParse } from '#core/Support.js';
 
 const STATUSES = Object.freeze(['active', 'waiting', 'done', 'failed', 'cancelled']);
 

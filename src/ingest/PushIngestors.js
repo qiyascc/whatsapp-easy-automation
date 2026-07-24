@@ -1,7 +1,7 @@
 import { Ingestor } from './Ingestor.js';
-import { Channels } from '../core/EventBus.js';
-import { PhoneNumber } from '../core/PhoneNumber.js';
-import { truncate } from '../core/Support.js';
+import { Channels } from '#core/EventBus.js';
+import { PhoneNumber } from '#core/PhoneNumber.js';
+import { truncate } from '#core/Support.js';
 
 export class WhatsAppIngestor extends Ingestor {
   static source = 'whatsapp';

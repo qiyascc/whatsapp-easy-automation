@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { clamp } from '../../core/Support.js';
+import { clamp } from '#core/Support.js';
 
 export class SystemRoutes {
   constructor(container) {

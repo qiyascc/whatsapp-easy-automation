@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import { asyncRoute } from '../middleware.js';
-import { SettingsRepository } from '../../db/repositories/SettingsRepository.js';
+import { asyncRoute } from '#server/middleware.js';
+import { SettingsRepository } from '#db/repositories/SettingsRepository.js';
 
 export class SettingsRoutes {
   constructor(container) {

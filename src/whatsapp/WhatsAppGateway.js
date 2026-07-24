@@ -1,5 +1,5 @@
-import { PhoneNumber } from '../core/PhoneNumber.js';
-import { TtlCache } from '../core/Support.js';
+import { PhoneNumber } from '#core/PhoneNumber.js';
+import { TtlCache } from '#core/Support.js';
 
 const GROUP_LIST_TTL_MS = 45000;
 const GROUP_META_TTL_MS = 20000;

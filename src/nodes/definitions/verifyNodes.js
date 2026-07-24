@@ -1,5 +1,5 @@
-import { WorkflowNode, NodeResult } from '../WorkflowNode.js';
-import { Template } from '../../core/Template.js';
+import { WorkflowNode, NodeResult } from '#nodes/WorkflowNode.js';
+import { Template } from '#core/Template.js';
 
 const VERIFY_COLOR = '#8b5cf6';
 const ON_FALSE_FIELD = {

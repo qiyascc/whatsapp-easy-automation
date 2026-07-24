@@ -1,4 +1,4 @@
-import { WorkflowNode, NodeResult } from '../WorkflowNode.js';
+import { WorkflowNode, NodeResult } from '#nodes/WorkflowNode.js';
 
 const ADMIN_COLOR = '#3b82f6';
 const GROUP_FIELD = { key: 'group_jid', label: 'Group', type: 'group' };

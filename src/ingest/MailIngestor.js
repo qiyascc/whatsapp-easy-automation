@@ -1,7 +1,7 @@
 import { ImapFlow } from 'imapflow';
 import { simpleParser } from 'mailparser';
 import { Ingestor } from './Ingestor.js';
-import { clamp } from '../core/Support.js';
+import { clamp } from '#core/Support.js';
 
 const MAX_MESSAGES_PER_CYCLE = 25;
 const FIRST_RUN_BACKLOG = 10;

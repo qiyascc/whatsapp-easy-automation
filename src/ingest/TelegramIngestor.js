@@ -1,5 +1,5 @@
 import { Ingestor } from './Ingestor.js';
-import { clamp } from '../core/Support.js';
+import { clamp } from '#core/Support.js';
 
 const API_BASE = 'https://api.telegram.org';
 const REQUEST_TIMEOUT_MS = 20000;

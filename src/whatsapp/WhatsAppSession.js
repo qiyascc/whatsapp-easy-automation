@@ -10,9 +10,9 @@ import { Boom } from '@hapi/boom';
 import pino from 'pino';
 import qrcode from 'qrcode';
 import qrcodeTerminal from 'qrcode-terminal';
-import { Channels } from '../core/EventBus.js';
+import { Channels } from '#core/EventBus.js';
 import { WhatsAppGateway } from './WhatsAppGateway.js';
-import { clamp } from '../core/Support.js';
+import { clamp } from '#core/Support.js';
 
 const SILENT_LOGGER = pino({ level: 'silent' });
 const MAX_RECONNECT_ATTEMPTS = 8;

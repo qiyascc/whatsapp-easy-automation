@@ -1,4 +1,4 @@
-import { clamp, randomInt } from '../core/Support.js';
+import { clamp, randomInt } from '#core/Support.js';
 
 const QUOTA_COOLDOWN_MS = 1800000;
 

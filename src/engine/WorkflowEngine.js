@@ -1,4 +1,4 @@
-import { clamp } from '../core/Support.js';
+import { clamp } from '#core/Support.js';
 
 const MAINTENANCE_INTERVAL_MS = 3600000;
 

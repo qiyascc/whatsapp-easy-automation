@@ -1,5 +1,5 @@
-import { WorkflowNode, NodeResult } from '../WorkflowNode.js';
-import { sleep, clamp } from '../../core/Support.js';
+import { WorkflowNode, NodeResult } from '#nodes/WorkflowNode.js';
+import { sleep, clamp } from '#core/Support.js';
 
 const MESSAGING_COLOR = '#25d366';
 

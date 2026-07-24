@@ -1,6 +1,6 @@
-import { Template } from '../core/Template.js';
-import { toBoolean } from '../core/Support.js';
-import { PhoneNumber } from '../core/PhoneNumber.js';
+import { Template } from '#core/Template.js';
+import { toBoolean } from '#core/Support.js';
+import { PhoneNumber } from '#core/PhoneNumber.js';
 
 export class NodeResult {
   constructor(kind, payload = {}) {

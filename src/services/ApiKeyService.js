@@ -1,5 +1,5 @@
-import { TokenHasher } from '../core/SecretVault.js';
-import { ValidationError, NotFoundError } from '../core/AppError.js';
+import { TokenHasher } from '#core/SecretVault.js';
+import { ValidationError, NotFoundError } from '#core/AppError.js';
 
 const KEY_PREFIX = 'wak_live_';
 const VALID_SCOPES = Object.freeze(['admin', 'webhook']);

@@ -1,5 +1,5 @@
 import { BaseRepository } from './BaseRepository.js';
-import { safeJsonParse } from '../../core/Support.js';
+import { safeJsonParse } from '#core/Support.js';
 
 export class ApiKeyRepository extends BaseRepository {
   static toDto(row) {
