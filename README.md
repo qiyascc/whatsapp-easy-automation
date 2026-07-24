@@ -1,6 +1,6 @@
 # WhatsApp Easy Automation
 
-A small self-hosted panel that automates WhatsApp with visual workflows.
+Self-hosted WhatsApp bot and automation panel with a visual, no-code workflow editor. Built on Baileys, runs on Node.js.
 
 You scan a QR code to link your WhatsApp, then draw a flow on the canvas: something happens (an email arrives, someone sends you a command, a webhook is called) and the flow takes care of the rest — sending messages, inviting people to a group, checking whether they joined, and so on.
 
